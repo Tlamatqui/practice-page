@@ -1,0 +1,39 @@
+#one, footer {
+  background-color: #1F2937
+}
+
+#hero {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #F9FAF8;
+}
+
+#sub-hero, li > a {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+#logo-text {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+#signup-one, #four {
+  color: #3882F6;
+}
+
+#info-header {
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1F2937;
+}
+
+#three {
+  background-color: #E5E7EB;
+}
+
+#quote {
+  font-size: 36px;
+  font-style: light-italic;
+  color: #1F2937;
+}

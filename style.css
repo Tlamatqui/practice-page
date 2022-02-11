@@ -4,7 +4,7 @@ body {
 }
 
 #one, footer {
-  background-color: #1F2937
+  background-color: #1F2937;
 }
 
 header {
@@ -18,28 +18,40 @@ header {
   color: #F9FAF8;
 }
 
-header ul {
+.right-links {
   list-style-type: none;
   display: flex;
+  align-items: center;
   gap: 1em;
 }
 
 #hero-container {
   display: flex;
+  justify-content: space-between;
   padding: 36px;
-  gap: 8px;
-  text-align: left
+  text-align: left;
 }
 
 #hero {
   font-size: 48px;
   font-weight: extra-bold;
+  flex-wrap: wrap;
   color: #F9FAF8;
+  padding: 0px 200px 0px 0px;
+  margin: 0px;
 }
 
-#sub-hero, li a {
+header li a {
   font-size: 18px;
   color: #E5E7EB;
+}
+
+#sub-hero{
+  font-size: 18px;
+  flex-wrap: wrap;
+  color: #E5E7EB;
+  padding: 0px 20px 8px 0px;
+  margin-top: 0px;
 }
 
 button, #four {
@@ -50,8 +62,7 @@ button, #four {
 button {
   padding: 8px 24px;
   border: #3882F6;
-  border-radius: 8px
-
+  border-radius: 8px;
 }
 
 .deck {
@@ -95,7 +106,7 @@ button {
 }
 
 #four {
-  margin: 48px;
+  margin: 72px;
   padding: 8px 72px;
   border-radius: 8px;
   display: flex;

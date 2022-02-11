@@ -1,5 +1,34 @@
+body {
+  text-align: center;
+  font-family: helvetica, sans-serif;
+}
+
 #one, footer {
   background-color: #1F2937
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 36px
+}
+
+#logo-text {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+header ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1em;
+}
+
+#hero-container {
+  display: flex;
+  padding: 36px;
+  gap: 8px;
+  text-align: left
 }
 
 #hero {
@@ -8,32 +37,104 @@
   color: #F9FAF8;
 }
 
-#sub-hero, li > a {
+#sub-hero, li a {
   font-size: 18px;
   color: #E5E7EB;
 }
 
-#logo-text {
-  font-size: 24px;
+button, #four {
+  background-color: #3882F6;
   color: #F9FAF8;
 }
 
-#signup-one, #four {
-  color: #3882F6;
+button {
+  padding: 8px 24px;
+  border: #3882F6;
+  border-radius: 8px
+
+}
+
+.deck {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 36px;
+  margin: 36px 48px;
+}
+
+.card {
+  width: 150px;
+}
+
+.card img {
+  width: 150px;
+  border: 4px solid #3882F6;
+  border-radius: 8px;
+}
+
+#three {
+  background-color: #E5E7EB;
+  padding: 72px;
 }
 
 #info-header {
   font-size: 36px;
   font-weight: extra-bold;
   color: #1F2937;
+  margin: 36px;
+}
+#hero-container img {
+  width: 360px;
+  height: auto;
 }
 
-#three {
-  background-color: #E5E7EB;
-}
-
-#quote {
+.quote {
   font-size: 36px;
-  font-style: light-italic;
+  font-weight: lighter;
   color: #1F2937;
+}
+
+#four {
+  margin: 48px;
+  padding: 8px 72px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+#signup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#signup h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#signup p {
+  margin-top: 0px;
+  margin-right: 8px;
+  margin-bottom: 0px;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+#button-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+#button-two button {
+  border: 2px solid white;
+}
+
+footer {
+  padding: 8px;
+  color: #F9FAF8
 }

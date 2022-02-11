@@ -3,6 +3,7 @@
   <head>
     <title>Landing Page</title>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
@@ -17,13 +18,15 @@
         </ul>
       </header>
 
-      <div class="content" id="awesome">
-        <h1 id="hero">This website is awesome</h1>
-        <p id="sub-hero">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-        <button id="signup-one"><b>Sign up</b></button>
-      </div>
+      <div id="hero-container">
+        <div class="content" id="awesome">
+          <h1 id="hero">This website is awesome</h1>
+          <p id="sub-hero">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
+          <button id="signup-one"><b>Sign up</b></button>
+        </div>
 
-      <img src="src/assets/saguaro.jpg" alt="Saguaro cactus">
+        <img src="src/assets/saguaro.jpg" alt="Saguaro cactus">
+      </div>
     </div>
 
     <div class="container" id="two">
@@ -53,7 +56,7 @@
     </div>
 
     <div class="container" id="three">
-      <h2 class="quote"><i>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</i></h2>
+      <p class="quote"><i>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</i></p>
       <h3><b>-Thor, God of Thunder</b></h3>
     </div>
 
@@ -63,7 +66,9 @@
         <p>Sign up for our product by clicking that button right over there!</p>
       </div>
 
-      <button id="signup-two">Sign up</button>
+      <div id="button-two">
+        <button><b>Sign up</b></button>
+      </div>
     </div>
 
     <footer>
